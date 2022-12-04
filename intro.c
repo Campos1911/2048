@@ -1,5 +1,5 @@
 /*********************************************************
- * Autores: Anthoni Bernardi Thomes Campos & xxxxxxxxxxx
+ * Autores: Anthoni Bernardi Thomes Campos & Antônio Vithor
  * Disciplina: Programação I
  * Data de Entrega: 20/12/2022
  * 
