@@ -1,3 +1,5 @@
+Autores: Anthoni Bernardi & Antônio Vithor
+
 Olá, seja bem-vindo.
 
 Esse arquivo foi feito para passar as instruções/informações necessárias

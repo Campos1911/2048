@@ -8,7 +8,7 @@
  * Nome do Projeto : Jogo 2048
  * Objetivo: O jogo deve funcionar exatamente como as versões
  * de 2048 já existentes.
-***********************************************************/
+**********************************************************/
 
 #include <stdio.h>
 
