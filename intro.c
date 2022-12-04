@@ -38,6 +38,7 @@ int esperando(char i)
 void tutorial()
 {
     printf("Para jogar, utilize as seguintes teclas:\n\nQ : Encerra o programa\nSetas: Movem as peças para o lado desejado\n\n");
+
 }
 
 void tabuleiro() 
@@ -56,6 +57,7 @@ void tabuleiro()
      printf("\n\n");   
     }
 }
+
 
 int main() {
 
