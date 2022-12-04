@@ -31,8 +31,6 @@ int esperando(char i)
             {
                 i=119;
             }
-            
-            
         }
     return(i);
 }
