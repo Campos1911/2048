@@ -52,7 +52,7 @@ void tabuleiro()
         for (int j = 0; j < 4; j++)
         {
             tabuleiro[i][j]=0;
-            printf("%d    ", tabuleiro[i][j]);
+            //printf("%d    ", tabuleiro[i][j]);
         }
      printf("\n\n");   
     }
@@ -67,6 +67,7 @@ int i;
     esperando(i);
     printf("\n\n");
     tutorial();
+    
     tabuleiro();
 
     return 0;
