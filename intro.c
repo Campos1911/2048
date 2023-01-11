@@ -18,6 +18,7 @@
 #define TAM 4
 
 int tabuleiro[TAM][TAM];
+int placar;
 
 void tab()
 {
@@ -100,13 +101,52 @@ void numero_random()
 
 void intervalo() {for(int i=0; i<500000000; i++){}}
 
+void imprimir_o_board()
+{
+    int i,j;
+    system("cls");
+
+    imprimir_placar();
+    for(i=0;i<TAM;i++)
+    {
+        printf("\t\t\t *");
+        for(j=0;j<TAM;j++)
+        {
+            if(tabuleiro[i][j]==0) //Se for zero, o código deixa um espaço branco
+            {
+                printf("  .   ");
+            }
+            else
+                printf(" %d ",tabuleiro[i][j]); //Se possuir valor, o código printa ele
+        }
+        printf("*\n\t\t\t *                        *\n");
+    }
+
+printf("\t\t\t **************************\n\n");    
+
+}
+
+void imprimir_placar()
+{
+    printf("\n\n\n\t\t\t\t2048\n");
+    printf("  Sua pontuacao  : %d\n\n\n\n",placar);
+    printf("\t\t\t **************************\n");
+
+}
 
 int main() {
 
+    int a;
+
+    imprimir_o_board();
+    scanf("%d", a); //Apenas feito para testar o tabuleiro
     apresenta();
     muda_cor();
     tutorial();
     numero_random();
+    intervalo();
+    intervalo();
+    intervalo();
 
     return 0;
 }
